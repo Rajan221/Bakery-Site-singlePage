@@ -1,0 +1,29 @@
+.topSection {
+  background-image: url("./img/background.jpg");
+  background-size: contain;
+  background-position: center;
+
+  background-color: black;
+  height: 700px;
+
+  width: 100%;
+}
+
+.homeOverlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.special {
+  position: relative;
+  top: 50%;
+  color: wheat;
+  margin-left: 160px;
+}
+
+.tortilla {
+  font-size: 70px;
+  font-style: italic;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
