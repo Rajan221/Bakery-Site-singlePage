@@ -27,3 +27,155 @@
   font-style: italic;
   font-family: "Oleo Script Swash Caps", cursive;
 }
+
+/* mid content start */
+.watermark {
+  font-size: 250px;
+
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #eee;
+}
+
+.midContent {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1000px;
+  position: relative;
+  top: -120px;
+  margin: auto;
+}
+
+#midItems1 {
+  display: flex;
+  margin-right: 50px;
+}
+
+#midItems2 {
+  display: flex;
+  margin-left: 50px;
+}
+
+.sourDough {
+  border-radius: 10px;
+  height: 250px;
+  width: 200px;
+}
+
+.sour {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.sourContents {
+  width: 70px;
+  font-size: 15px;
+  color: #999;
+  font-family: "Playfair Display", serif;
+}
+
+.button {
+  letter-spacing: 2px;
+  font-family: "Playfair Display", serif;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  text-decoration: underline;
+}
+
+.button:hover {
+  transition: 0.9s;
+  background-color: #ccc;
+
+  border-radius: 5px;
+}
+
+/* recipe secition */
+.recipes {
+  background-image: url("./img/making.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 90vw;
+  margin: auto;
+}
+
+#recipeHead {
+  font-size: 70px;
+  font-family: "Playfair Display", serif;
+  color: wheat;
+}
+
+#recipeMid {
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  color: wheat;
+  max-width: 30ch;
+  position: relative;
+  right: 0px;
+}
+
+#seeRecipe {
+  background-color: wheat;
+  width: 200px;
+  position: absolute;
+  margin-top: 100px;
+  right: 0;
+  padding: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+#seeRecipe:hover {
+  transform: scale(1.1) rotate(-3deg);
+
+  transition: 0.5s;
+}
+
+#recipeOverlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+/* connect section */
+.social {
+  padding: 40px;
+}
+
+.watermarkConnect {
+  font-size: 250px;
+
+  right: 0;
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #eee;
+}
+
+.connect {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#connectUs {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+#gallery {
+  display: flex;
+}
+
+/* footer section */
+
+#footer {
+  margin-top: 100px;
+  background-color: black;
+  height: 250px;
+  width: 100%;
+}
